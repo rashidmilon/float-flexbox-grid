@@ -1,0 +1,41 @@
+.wrapper {
+  background-color: greenyellow;
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.left {
+  background-color: pink;
+  width: 200px;
+  height: 200px;
+  float: right;
+}
+
+.right {
+  background-color: blue;
+  width: 300px;
+  height: 200px;
+  float: right;
+}
+
+.bottom {
+  background-color: red;
+  width: 50px;
+  height: 20px;
+  float: bottom;
+}
+
+.top {
+  background-color: blueviolet;
+  width: 100px;
+  height: 100px;
+  float: top;
+}
